@@ -1,0 +1,30 @@
+GET http://localhost:3000/weather 
+
+### 
+GET http://localhost:3000/weather-history
+
+### 
+POST http://localhost:3000/weather 
+Content-Type: application/json
+
+{
+    "temperature":"40",
+    "humidity":"60"
+}
+
+###
+POST http://localhost:3000/disease
+Content-Type: application/json
+
+{
+    "plantId": "2",
+    "disease": "THAKKAIPPANI - 2",
+    "diseaseProbability": "1"
+}
+
+###
+GET http://localhost:3000/disease
+
+###
+GET http://localhost:3000/disease-history
+
